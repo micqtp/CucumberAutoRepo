@@ -20,7 +20,8 @@ import cucumber.api.CucumberOptions;
 			
 		plugin = {"pretty", 
 				  "html:target/cucumber-htmlreport",
-				  "json:target/cucumber-jsonreport/cucumber-jsonreport.json",
+//				  "json:target/cucumber-jsonreport/cucumber-jsonreport.json",
+				  "json:target/cucumber-jsonreport.json",
 				  "com.cucumber.listener.ExtentCucumberFormatter:target/ExtentReport.html"
 				  // The formatter is used to generate the Extended report 
 				  // And, the report will be stored inside the "target" folder of this particular project 
