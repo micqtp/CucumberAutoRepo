@@ -20,7 +20,8 @@ public class TagsStepDef {
 	{
 		System.setProperty("webdriver.chrome.driver", "/Applications/chromedriver");
 		driver = new ChromeDriver();
-		driver.get("https://www.facebook.com/");		
+		driver.get("https://www.facebook.com/");
+		System.out.println("Opening the URL");
 	}
 
 	@When("^user enters user \"([^\"]*)\" first name$")
